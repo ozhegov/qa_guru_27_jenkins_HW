@@ -25,7 +25,7 @@ public class DemoQaFormTestsWithPom extends TestBase {
 
     @Test
     @Severity(SeverityLevel.CRITICAL)
-    @DisplayName("При заполнении всех полей формы валдиными данными появляется модал с заполненными данными")
+    @DisplayName("При заполнении всех полей формы валидными данными появляется модал с заполненными данными")
     void seeModalTableWhenAllDataInputsFilled(){
 
         formPage.openPage()
@@ -60,7 +60,7 @@ public class DemoQaFormTestsWithPom extends TestBase {
 
     @Test
     @Severity(SeverityLevel.NORMAL)
-    @DisplayName("При заполнении минимального количества полей формы валдиными данными появляется модал с заполненными данными")
+    @DisplayName("При заполнении минимального количества полей формы валидными данными появляется модал с заполненными данными")
     void seeModalTableWhenMinDataInputsFilled() {
         formPage.openPage()
                 .removeFooter()
