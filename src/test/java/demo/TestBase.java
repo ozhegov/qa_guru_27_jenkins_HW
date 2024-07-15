@@ -17,7 +17,7 @@ public class TestBase {
     static void configuration(){
         baseUrl = System.getProperty("baseUrl","https://demoqa.com");
         browser = System.getProperty("browser","chrome");
-        browserSize = System.getProperty("browserSize","1920 x 1080");
+        browserSize = System.getProperty("browserSize","1920x1080");
         pageLoadStrategy = "eager";
         remote = "https://user1:1234@" + System.getProperty("wdHost") + "/wd/hub";
 
